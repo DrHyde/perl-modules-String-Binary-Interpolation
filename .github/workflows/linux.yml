@@ -35,6 +35,7 @@ jobs:
         env:
           PERL_USE_UNSAFE_INC: 0
         run: |
+            cpanm ExtUtils::MakeMaker Test::Pod Test::Pod::Coverage
             cpanm --installdeps .
             perl Makefile.PL
             make test
