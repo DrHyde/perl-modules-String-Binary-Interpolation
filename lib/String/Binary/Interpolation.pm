@@ -19,11 +19,7 @@ sub import {
 
 =head1 NAME
 
-String::Binary::Interpolation
-
-=head1 DESCRIPTION
-
-Make it easier to interpolate binary bytes into a string
+String::Binary::Interpolation - make it easier to interpolate binary bytes into a string
 
 =head1 SYNOPSIS
 
